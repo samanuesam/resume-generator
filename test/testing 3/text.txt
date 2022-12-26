@@ -1,0 +1,16 @@
+                    <div class="extra">
+                        <h4>EXTRACURRICULAR ACTIVITIES</h4>
+                        <p class="line">-----------------------------------------------------------</p>
+                        <div class="extrainside">
+                            <li>Organize monthly events to increase the participation of the students in different college clubs.</li>
+                            <li>Conducted a CSR programme in World Environment day</li>
+                            
+                        </div>
+                    </div>
+                    <div class="certifications">
+                        <h3>CERTIFICATIONS</h3>
+                        <div class="certificationsinside">
+                            <h5>Infosys Springboard Certification</h5>
+                            <h5>Udemy Certification</h5>
+                        </div>
+                    </div>

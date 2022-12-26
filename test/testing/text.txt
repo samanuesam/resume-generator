@@ -1,0 +1,100 @@
+let firstname=document.getElementById('firstname').value
+    let firstname1=firstname.toUpperCase()
+    let lastname=document.getElementById('lastname').value
+    let lastname1=lastname.toUpperCase()
+    let desig=document.getElementById('desig').value
+    let desig1=desig.toUpperCase()
+    let twitter=document.getElementById('dtwitter').value
+    let linkedin=document.getElementById('dlink').value
+    let email=document.getElementById('dmail').value
+    let contact=document.getElementById('dcont').value
+    let from=document.getElementById('dfrom').value
+    let to=document.getElementById('dto').value
+    let college=document.getElementById('dcollege').value
+    let gpa=document.getElementById('dgpa').value
+    let comment=document.getElementById('dcomment').value
+    let qualification=document.getElementById('dqualification').value
+    let about=document.getElementById('dabout').value
+    let season=document.getElementById('dseason').value
+    let organization=document.getElementById('dcompany').value
+    let duration=document.getElementById('ddays').value
+    let internshipon=document.getElementById('dinternshipon').value
+    let project=document.getElementById('dproject').value
+
+    //duplicates//
+    //let fromtwo=document.getElementById('vfrom').value
+    //let totwo=document.getElementById('vto').value
+    //let collegetwo=document.getElementById('vcollege').value
+    //let gpatwo=document.getElementById('vcgpa').value
+    //let commenttwo=document.getElementById('vcomment').value
+    //let qualificationtwo=document.getElementById('vqualification').value
+    
+    
+    document.getElementById('rname').innerHTML=firstname1
+    document.getElementById('rlname').innerHTML=lastname1
+    document.getElementById('rdesig').innerHTML=desig1
+    document.getElementById('contact').innerHTML=contact
+    document.getElementById('email').innerHTML=email
+    document.getElementById('twitter').innerHTML=twitter
+    document.getElementById('linkedin').innerHTML=linkedin
+    document.getElementById('about').innerHTML=about
+    document.querySelector('.fromr').innerHTML=from
+    document.querySelector('.tor').innerHTML=to
+    document.querySelector('.colleger').innerHTML=college
+    document.querySelector('.rcgpa1').innerHTML=gpa
+    document.querySelector('.rcourse-info').innerHTML=comment
+    document.querySelector('.rcourse').innerHTML=qualification
+    document.getElementById('season').innerHTML=season
+    document.getElementById('duration').innerHTML=duration
+    document.getElementById('internshipon').innerHTML=internshipon
+    document.getElementById('project').innerHTML=project
+    document.getElementById('company').innerHTML=organization
+    //duplicates updation//
+    document.getElementById('fromtwo').innerHTML=fromtwo
+    document.getElementById('totwo').innerHTML=totwo
+    document.getElementById('collegetwo').innerHTML=collegetwo
+    document.getElementById('gpatwo').innerHTML=gpatwo
+    document.getElementById('commenttwo').innerHTML=commenttwo
+    document.getElementById('qualificationtwo').innerHTML=qualificationtwo
+
+    
+
+
+    let wes=document.getElementsByClassName("add");
+    let str=""
+   
+    for (let e of wes){
+        str=str+`<li>${e.value}</li>`
+    }
+   
+
+    let wes1=document.getElementsByClassName("add1");
+    let str1=""
+    for (let e of wes1){
+        str1=str1+`<li>${e.value}</li>`
+    }
+    
+
+    let wes2=document.getElementsByClassName("add2");
+    let str2=""
+    for (let e of wes2){
+        str2=str2+`<li>${e.value}</li>`
+    }
+    
+
+    let wes3=document.getElementsByClassName("add3");
+    let str3=""
+    for (let e of wes3){
+        str3=str3+`<li>${e.value}</li>`
+    }
+    
+
+    
+
+
+
+    document.getElementById("sam").innerHTML=str
+    document.getElementById("sam1").innerHTML=str1
+    document.getElementById("sam2").innerHTML=str2
+    document.getElementById("sam3").innerHTML=str3
+    

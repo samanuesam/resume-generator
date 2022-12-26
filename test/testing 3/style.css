@@ -1,0 +1,215 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1.7fr 2.7fr;
+}
+.main{
+    margin-left: 16%;
+    margin-right: 16%;
+    background-color: #EED6CE;
+}
+.leftsection{
+    margin-left: 40px;
+  
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #F6EBE7;
+    margin-bottom: 40px;
+}
+.image{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+.imagediv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #94786a;
+    letter-spacing: 2px;
+    margin-left: 16px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.line{
+    letter-spacing: -2px;
+    margin-top: 0px;
+    margin-left: 16px;
+    color: #cea894;
+    margin-bottom: 0px;
+}
+#phonenumber,#mailid,#location,#twitter{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: black;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.iphonenumber,.imail,.ilocation,.itwitter{
+    margin-left: 20px;
+    font-size: 13px;
+    color: #94786a;
+}
+li{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.firstname,.lastname{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 80px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    color: #5A432C;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.graduationdiv{
+    display: flex;
+    justify-content: center;
+}
+.graduation{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5A432C;
+    letter-spacing: 4px;
+    
+}
+.language{
+    margin-bottom: 30px;
+}
+h3{
+    width: 470px;
+    background-color: #C4A496;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    color: white;
+    font-weight: 540;
+    letter-spacing: 2px;
+}
+.proffesionalprofile,.education,.extra{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.prof{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 470px;
+    margin-top: 40px;
+    margin-left: 6px;
+    font-size: 17px;
+    line-height: 24px;
+}
+.collegename,.bracketo,.bracketc,.startyear,.endyear,.dash{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+}
+.bracketo{
+    margin-left: 6px;
+}
+.course{
+    margin-bottom: 0px;
+    margin-left: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+}
+.comment{
+    font-size: 16px;
+}
+.extra1{
+    margin-left: 6px;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.removeskills,.removecertifications,.removelanguages,.removeeducation,.removeextra{
+    display: none;
+}
+.deducationinside{
+    display: inline-block;
+}
+label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14px;
+   display: block;
+    color: rgba(20, 156, 224, 0.933);
+    font-weight: bold;
+    
+}
+button{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+   
+    border-radius: 10px;
+    
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+input{
+    padding: 8px 60px 8px 6px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow: visible;
+}
+input::placeholder{
+    overflow: visible;
+}
+textarea{
+    display: block;
+}
+.dgrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.dh2{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.main{
+    display: none;
+}

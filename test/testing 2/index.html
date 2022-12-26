@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="C:\Users\samanue\Desktop\test\testing 2\style.css">
+        <script src="C:\Users\samanue\Desktop\test\testing 2\js.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="mainhide">
+<div class="user-input">
+    <div class="grid1">
+        <h2>Personal Details</h2>
+            <label>First Name</label>
+            <input type="text" placeholder="Enter your first name" id="dfname">
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter your last name" id="dlname">
+            <label>Current Occupation</label>
+            <input type="text" placeholder="Enter your qualification" id="doccupation">
+            <label>Address</label>
+            <input type="text" placeholder="Eg.H.NO:1-5-112,Hyderabad,Telangana" id="daddress">
+            <label>Country</label>
+            <input type="text" placeholder="country" placeholder="Eg. India" id="dcountry">
+            <label>Mail Id</label>
+            <input type="text" placeholder="Enter your mail id" id="dmailid">
+            <label>Contact Number</label>
+            <input type="text" placeholder="Enter your mobile number" id="dnumber">
+            <label>About</label>
+            <textarea placeholder="Enter your description" id="dabout" style="display: block; margin-left: 10px;" rows="14" cols="28"></textarea>
+            <div class="image">
+                <label>Upload your image</label>
+                <input type="file" id="dimage">
+            </div>
+    </div>
+    <div class="grid2">
+    <div id="donemain">
+        <div id="done">
+            <h2>Education Details</h2>
+            <label>Course</label>
+            <input type="text" placeholder="Enter the course" class="dcourse">
+            <label>College</label>
+            <input type="text" placeholder="Enter the college" class="dcollege">
+            <label>College location</label>
+            <input type="text" placeholder="Enter the college location" class="dcollegelocation">
+            <label>Course Starting month</label>
+            <input type="text" placeholder="Enter Course starting month" class="dstartmonth">
+            <label>Course ending month</label>
+            <input type="text" placeholder="Enter Course ending month" class="dendmonth">
+            <label>Course Starting year</label>
+            <input type="text" placeholder="Enter Course starting year" class="dstartyear">
+            <label>Course ending year</label>
+            <input type="text" placeholder="Enter Course ending year" class="dendyear">
+            <label>Comment</label>
+            <input type="text" placeholder="Comment like college first" class="dcomment">
+        </div>   
+    </div>
+            <button onclick="addit()" class="add">Add</button><br>
+            <button onclick="remove()" class="remove">Remove</button>
+        </div>
+        <div class="grid3">
+            <h2>Professional Details</h2>
+        <div class="divskills">
+            <label>Skills</label>
+            <input type="text" placeholder="Enter your skills" class="add0">
+        </div>
+            <button onclick="addskills()" class="addskills">Add</button>
+            <button onclick="removes()" class="removes">Remove</button>
+        <div class="divlaguages">
+            <label>Languages Known</label>
+            <input type="text" placeholder="Enter what languages you know" class="add1">
+        </div>
+            <button onclick="addlanguages()" class="addlanguages">Add</button>
+            <button onclick="removel()" class="removel">Remove</button>
+        <div class="divprojects">
+            <label>Projects</label>
+            <input type="text" placeholder="Enter your project" class="add2">
+        </div>
+            <button onclick="addproject()">Add</button>
+            <button onclick="removep()" class="removep">Remove</button>
+        </div>
+        
+</div>
+        <center><button onclick="generate()" type="submit">Generate</button></center>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="resume">
+            <div class="resumeflex">
+                <div class="topsection">
+                <img src="D:\mi samanuee\AdobeLightroom\1642070199234.jpg" class="rightimg" id="image">
+                </div>
+                <div class="topright">
+                    <h1 class="fname" id="fname">SAMANUE</h1>
+                    <h1 class="lname" id="sname">KOLA</h1>
+                    <h3 id="occupation">Student</h3>
+                </div>
+            </div>
+            <div class="details">
+                <p class="details-p">DETAILS</p>
+                <p class="address1" id="address">H.NO:1-51/26,Khammam,Telangana</p>
+                <p class="country" id="country">India</p>
+                <p class="mail" id="mailid">samanuesam@gmail.com</p>
+                <p class="number" id="number">+916304647636</p>
+            </div>
+            <div class="profile">
+                <p class="profile-p">PROFILE</p>
+                <p class="profile-info" id="about">
+                    Hardworking Student seeking employement. Ready to utilize my skills and passion to further the mission of a company.
+                Technologically adepth, Offering experience with many different social media platforms, Office technology program,
+                and advance computer skills. Bringing forth a postive attitude and the willingness and motivation to learn new programs.
+                </p>
+                
+            </div>
+            <div class="education">
+                <p class="education-p">EDUCATION</p>
+                <div class="education-one">
+                    <p class="course">BTECH</p><p class="comma">, </p><p class="college">Parul University</p><p class="comma">, </p><p class="college-location">Vadodara</p>
+                </div>
+                <div class="education-two">
+                    <p class="from-month">September</p><pre class="blank"> </pre><p class="from-year">2021</p><pre class="blank"> </pre><p class="dash">-</p><pre class="blank"> </pre><p class="to-month">September</p><pre class="blank"> </pre><p class="to-year">2024</p>
+                </div>
+                <div class="education-three">
+                    <li class="comment">Class second</li>
+                </div>
+            </div>
+        <div class="skills">
+                <p class="skills-p">SKILLS</p>
+            
+            <div class="skills-grid " id="skillgrid">
+                
+            </div>
+        </div>
+        <div class="languages">
+            <p class="languages-p">LANGUAGES</p>
+            <div class="languages-grid" id="languagegrid">
+                
+            </div>
+        </div>
+
+        <div class="projects">
+            <p class="projects-p">PROJECTS</p>
+            <div class="skills-grid" id="projectsgrid">
+                
+                
+            </div>
+        </div>
+        
+        </div>
+    </body>
+</html>

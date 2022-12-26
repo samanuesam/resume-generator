@@ -1,0 +1,388 @@
+.flex{
+    display: flex;
+    
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+input{
+    display: block;
+}
+.add,.add1,.add2,.add3{
+    display: block;
+    margin-bottom: 6px;
+    
+}
+
+
+.block{
+    display: block;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.left-section{
+    width: 240px;
+    background-color: #040b14;
+}
+
+*{
+    margin: 0;
+}
+.profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: top;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 20px;
+    object-fit: block;
+}
+.name{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 31px;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    position: relative;
+    color: #173b6c;
+    margin-top: 10px;
+}
+.resumeflex{
+    display: flex;
+    flex-direction: row;
+
+}
+.resumeleft{
+    background-color: #335384;
+    width: 326px;
+    color: white;
+}
+.resumeright{
+    width: 600px;
+}
+.rname{
+    font-family: arial;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.rlname{
+    font-family: arial;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.rdesignation{
+    font-family: arial;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight:400;
+}
+.rcontacts, .rskills,.rinterests,.rlang{
+    margin-left: 20px;
+    margin-top: 60px;
+    font-family: arial;
+    letter-spacing: 3px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.remail, .rinsta, .rlinkedin,.twitter{
+    margin-left: 20px;
+    font-family: arial;
+    font-size: 16px;
+    margin-top: 12px;
+    letter-spacing:1px;
+}
+#email,#contact,#linkedin,#twitter{
+    display: inline-block;
+    margin-left: 6px;
+}
+.rsills-inside,.rinterests-inside,.rlang-inside{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 24px;
+}
+.rsills-inside{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+.rinterests-inside{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+.rlang-inside{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+.rlang-inside{
+    margin-bottom: 40px;
+}
+
+.headingone{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 1px;
+    letter-spacing: 2px;
+}
+.undeline{
+    letter-spacing: -3px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.rpersonal-profile{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 6px;
+    color: #149ddd;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rdescription{
+    margin-left: 20px;
+    font-family: arial;
+    margin-top: 6px;
+    color: gray;
+}
+.reducation, .rprojects, .rinternships{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 50px;
+    color: #149ddd;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.rgrid-left{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-left: 20px;
+    margin-top: 20px
+}
+.rbtech p,.rcgpa,.rcgpa1{
+    font-family: arial;
+    color: #363636;
+    font-weight: bold;
+}
+.rcgpa,.rcgpa1{
+    display: inline-block;
+}
+.rcourse{
+    color: #363636;
+    font-family: arial;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.rcourse-info{
+    font-family: arial;
+    color: gray;
+    margin-bottom: 4px;
+}
+.rpline{
+    letter-spacing: -3px;
+    font-size: 20px;
+    color: rgb(159, 154, 154);
+    margin-top: 10px;
+}
+.rprojects-info{
+    margin-left: 0px;
+    margin-top: 20px;
+    line-height: 22px;
+    color: black;
+    font-family: arial;
+    
+}
+.rpdot::before{
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.rpdot{
+    margin-left: 18px;
+}
+.rsummer{
+    margin-left: 36px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-size: 17px;
+}
+.rsummer::before{
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.rorgan,.rdur,.rinton{
+    margin-left: 24px;
+    font-family: arial;
+    margin-bottom: 6px;
+    color: black;
+    display: inline-block;
+    font-weight: 400;
+}
+.org, .dur, .inton{
+    color: black;
+}
+.pdup{
+    display: inline-block;
+    font-family: arial;
+    margin-left: 6px;
+    color: gray;
+}
+.pdup1{
+    display: inline-block;
+    font-family: arial;
+    margin-left: 6px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+#college{
+    font-family: arial;
+    color: gray;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+input{
+    padding: 8px 60px 8px 6px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+input::placeholder{
+    overflow: visible;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 22px;
+    font-size: 16px;
+    color: rgb(25, 96, 182);
+    margin-bottom: 10px;
+}
+button{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+   
+    border-radius: 10px;
+    
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 75px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#hide{
+    display: none;
+}
+#mainhide{
+    display: block;
+}
+#pop,#pop1,#pop2,#pop3,#pop4{
+    display: none;
+}
+.fromr,.from1r,.tor{
+    display: inline-block;
+}
+.colleger{
+    font-family: arial;
+    color: gray;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#to2{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.editone{
+    display: block;
+    margin-bottom: 10px;
+}
+.edittwo,.editthree{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.editfour,.editfive{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.editsix{
+    display: block;
+    margin-bottom: 20px;
+}
+.rbtech,.rbtech-info{
+    margin-bottom: 20px;
+}
+.conth3{
+    margin-left: 10px;
+    margin-top: 20px;
+    color:rgb(25, 96, 182);
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 14px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

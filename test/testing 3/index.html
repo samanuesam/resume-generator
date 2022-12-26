@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" href="C:\Users\samanue\Desktop\test\testing 3\style.css">
+        <script src="https://kit.fontawesome.com/0d88bb5d93.js" crossorigin="anonymous"></script>
+        <script src="C:\Users\samanue\Desktop\test\testing 3\script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+            <div class="hide">
+                <div class="dgrid">
+                    <div class="grid1">
+                        <h2 class="dh2">Personal Details</h2>
+                        <label>First name</label>
+                        <input type="text" placeholder="Enter your first name" class="dfname">
+                        <label>Last name</label>
+                        <input type="text" placeholder="Enter your Last name" class="dlname">
+                        <label>Qualification</label>
+                        <input type="text" placeholder="Eg.Btech graduate" class="dgraduation">
+                        
+                        <label>Mobile number</label>
+                        <input type="text" placeholder="Enter your mobile number" class="dmobile">
+                        <label>Mail ID</label>
+                        <input type="text" placeholder="Enter your mail id" class="dmail">
+                        <label>Address</label>
+                        <input type="text" placeholder="Eg. Hyderabad,Telangana" class="daddress">
+                        <label>Linkedin</label>
+                        <input type="text" placeholder="Enter your Linkedin username" class="dlinkedin"> 
+                        <div class="image">
+                            <label>Upload your image</label>
+                            <input type="file" id="dimage">
+                        </div>
+                    </div>
+                    
+                    <div class="grid3">
+                        <div class="deducation">
+                            <h2 class="dh2">Education Detials</h2>
+                            <div class="deducationinside">
+                                <label>Course</label>
+                                <input type="text" placeholder="Enter your Course" class="dcourse">
+                                <label>College name</label>
+                                <input type="text" placeholder="Enter your college name" class="dcollegename">
+                                <label>Start year</label>
+                                <input type="text" placeholder="Enter the course starting year" class="dstartyear">
+                                <label>Ending year</label>
+                                <input type="text" placeholder="Enter the course ending year" class="dendyear">
+                                <label>Comments</label>
+                                <input type="text" placeholder="Eg. Class second" class="dcomments">
+                            </div>
+                        </div>
+            
+                            <button class="addeducation" onclick="addeducation()">Add</button>
+                            <button class="removeeducation" onclick="removeeducation()">Remove</button><br>
+                    </div>
+                    <div class="grid2">
+                        <h2 class="dh2">Proffessional Details</h2>
+                        <div class="dcertifications">
+                            <div class="dskills" id="dskills">
+                                <label>Skills</label>
+                                <input type="text" placeholder="Enter your skills" class="add">
+                            </div>
+                            <button class="addskills" onclick="addskills()">ADD</button>
+                            <button class="removeskills" onclick="removeskills()">REMOVE</button>
+                            <label>Certifications</label>
+                            <input type="text" placeholder="Enter your certifications" class="add1">
+            
+                        </div>
+                        <button class="addcertifications" onclick="addcertifications()">ADD</button>
+                        <button class="removecertifications" onclick="removecertifications()">REMOVE</button>
+                        <div class="dlanguages">
+                            <label>Languages Known</label>
+                            <input type="text" placeholder="Enter languages you know" class="add2">
+            
+                        </div>
+                        <button class="addlanguages" onclick="addlanguages()">ADD</button>
+                        <button class="removelanguages" onclick="removelanguages()">REMOVE</button><br>
+                        <label>About</label>
+                        <textarea rows="4" cols="48" class="dtextarea" style="margin-bottom: 10px;margin-left: 12px;"></textarea>
+                        
+                        <div class="dextracircu">
+                            <label>Extracurricular Activities</label>
+                            <input type="text" placeholder="Enter your Extracurricular Activities"class="add3">
+                        </div>
+                        <button class="addextra" onclick="addextra()">ADD</button>
+                        <button class="removeextra" onclick="removeextra()">REMOVE</button><br>
+                        
+                    </div>
+                    
+        </div>
+        
+        
+
+
+            <center><button onclick="generate()"id="hidedetails">Generate</button></center>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="main">
+        <div class="grid">
+                <div class="leftsection">
+                    <div class="imagediv">
+                        <img src="D:\mi samanuee\AdobeLightroom\1627135990373.jpg" class="image" id="image">
+                    </div>
+                    <div class="contact">
+                        <h4>CONTACT</h4>
+                        <p class="line">----------------------------------------------------------- </p>
+                        <div class="iphonenumber"><i class="fa-solid fa-phone"></i><p id="phonenumber">6304647636</p></div>
+                        <div class="imail"><i class="fa-solid fa-envelope"></i><p id="mailid">samanuesamanue@gmail.com</p></div>
+                        <div class="ilocation"><i class="fa-solid fa-location-pin"></i><p id="location">Khammam,Telangana</p></div>
+                        <div class="itwitter"><i class="fa-brands fa-twitter"></i><p id="twitter">Samanuesam</p></div>
+                    </div>
+                    <div class="skills">
+                        <h4>SKILLS</h4>
+                        <p class="line">-----------------------------------------------------------</p>
+                        <div class="skillsinside">
+                            <li>Python</li>
+                            <li>React</li>
+                            <li>Django</li>
+                            <li>Leardership</li>
+                        </div>
+                    </div>
+                    <div class="certifications">
+                        <h4>CERTIFICATIONS</h4>
+                        <p class="line">-----------------------------------------------------------</p>
+                        <div class="certificationsinside">
+                            <li>Infosys Springboard Certification</li>
+                            <li>Udemy Certification</li>
+                        </div>
+                    </div>
+
+                    <div class="language">
+                        <h4>LANGUAGE</h4>
+                        <p class="line">-----------------------------------------------------------</p>
+                        <div class="languageinside">
+                            <li>English</li>
+                            <li>French</li>
+                            <li>Telugu</li>
+                            
+                        </div>
+                    </div>
+               </div>
+
+
+
+
+
+
+                <div class="rightsection">
+                    <div class="name">
+                        <h1 class="firstname">SAMANUE</h1>
+                        <h1 class="lastname">KOLA</h1>
+                        
+                    </div>
+                    <div class="graduationdiv">
+                    <h2 class="graduation">BTECH GRADUATE</h2>
+                    </div>
+                    <div class="proffesionalprofile">
+                        <h3>PROFESSIONAL PROFILE</h3>
+                        <p class="prof">An independent and self-motivated graduate looking for an entry-level position in the marketing department 
+                            where I can utilize the extensive knowledge I have gained during my course. Well Versed in markt research and excellence
+                            in creating brand awarness.
+                        </p>
+                    </div>
+
+                    <div class="education">
+                        <h3>EDUCATION</h3>
+                        <div class="educationinside">
+                        <p class="course">BTECH in Computer science Engineering</p>
+                        <p class="collegename">Parul University</p><p class="bracketo">(</p><p class="startyear">2021</p><p class="dash">-</p><p class="endyear">2024</p><p class="bracketc">)</p>
+                        <li class="comment">Class second</li>
+                        </div>
+                    </div>
+
+                    <div class="extra">
+                        <h3>EXTRACURRICULAR ACTIVITIES</h3>
+                        <div class="extrainside">
+                            <li class="extra1">Organize monthly events to increase the participation of the students in different college clubs.</li>
+                            <li class="extra1">Conducted a CSR programme in World Environment day</li>
+                            
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+        </div>
+    </div>
+    </body>
+</html>

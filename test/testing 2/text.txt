@@ -1,0 +1,16 @@
+let wes=document.getElementsByClassName("add")
+    str=""
+    for(let e of wes){
+        str=str+`<li>${e.value}</li>`
+    }
+    document.getElementById("skillgrid").innerHTML=str
+
+
+
+    let b=document.querySelector(".remove")
+   if(b.style.display=="inline-block"){
+    b.style.display="none"
+   }
+   else{
+    b.style.display="inline-block"
+   }

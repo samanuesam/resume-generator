@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="C:\Users\samanue\Desktop\test\testing\style.css">
+        <script src="https://kit.fontawesome.com/0d88bb5d93.js" crossorigin="anonymous"></script>
+        <script src="C:\Users\samanue\Desktop\test\testing\script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Resume builder</title>
+    </head>
+    <body>
+    
+    <div id="mainhide">   
+        <h2 style="margin-left: 35%;color: black; font-family: Arial, Helvetica, sans-serif;">Provide your details</h2>
+        
+            <div class="grid">
+            <div class="left">
+                <label>First Name</label>
+                <input type="text" placeholder="Enter your first name" id="firstname">
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter your last name" id="lastname">
+                <label>Designation</label>
+                <input type="text" placeholder="Like software engineer,webdeveloper etc" id="desig">
+                <h3 class="conth3">Contact Details</h3>
+                <label>Linkedin</label>
+                <input type="text" placeholder="Enter your Linkedin Username" id="dlink">
+                <label>Mail ID</label>
+                <input type="email" placeholder="Enter your Mail ID" id="dmail">
+                <label>Twitter</label>
+                <input type="text" placeholder="Enter your Twitter Username" id="dtwitter">
+                <label>Contact number</label>
+                <input type="text" placeholder="Enter your Contact number" id="dcont">
+                <label class="block">Skills</label>
+                
+                <div id="done">
+                    <input type="text" placeholder="Enter your skills" class="add" id="addone">
+                    
+                </div>
+                
+                <button onclick="addit()" class="remskills">Add</button>
+                <button onclick="popit()" id="pop" >Delete</button>
+                    
+                <label class="block">Enter your Interest</label>
+                <div id="dtwo">
+                    <input type="text" placeholder="Eg: Content writing, App Development etc" id="addtwo" class="add1">  
+                </div>
+                <button onclick="additTwo()">Add</button>
+                <button onclick="popit1()" id="pop1">Remove</button>
+
+                <label class="block">Languages Known</label>
+                <div id="dthree">
+                    <input type="text" placeholder="Eg:English,Hindi" id="addthree" class="add2">
+                </div>
+                <button onclick="additThree()">Add</button>
+                <button onclick="popit2()" id="pop2">Remove</button>
+                
+
+            </div>
+            <div class="right">
+                <label class="block">Description</label>
+                <textarea placeholder="Enter the description" rows="4" cols="70" id="dabout"></textarea>
+                <label class="block">Education Details</label>
+                <div id="d--div">
+                <div id="d-education" class="veducations">
+                    <div class="editone">
+                        <label>Qualification</label>
+                        <input type="text" placeholder="BTECH in CSE" id="dqualification" class="qualification">
+                    </div>
+                    <div class="edittwo">
+                        <label>From</label>
+                        <input type="text" placeholder="Eg:2014" id="dfrom" class="from">
+                    
+                    
+                        <label>To</label>
+                        <input type="text" placeholder="Eg:2018" id="dto" class="to">
+                    </div>
+                    <div class="editfour">
+                        <label>College Name</label>
+                        <input type="text" placeholder="Enter Your college name" id="dcollege" class="collegname">
+                    
+                    
+                        <label>CGPA</label>
+                        <input type="text" placeholder="Enter your CGPA" id="dgpa" class="cgpa">
+                    </div>
+                    <div class="editsix">
+                        <label>Comments</label>
+                        <input type="text" placeholder="Comments like class first etc" id="dcomment" class="comments">
+                    </div>
+                </div>
+            </div>
+                <button onclick="additfive()" id="additfivevalue" value=0 >Add</button>
+                <button onclick="popit4()" id="pop4">Delete</button><br>
+                <label>Projects</label>
+                <div id="dfour">
+                    <input type="text" placeholder="Enter your projects" class="add3">
+                </div>
+                <button onclick="additfour()">Add</button>
+                <button onclick="popit3()" id="pop3">Remove</button>
+                <div>
+                <label>Internship Season</label>
+                
+                <input type="text" placeholder="Eg.Summer or winter" id="dseason">
+                <label>Organization</label>
+                <input type="text" placeholder="Enter organization or company name" id="dcompany">
+                <label>Duration</label>
+                <input type="text" placeholder="Enter duration in days" id="ddays">
+                <label>Internship On</label>
+                <input type="text" placeholder="Eg: WebDevelopment" id="dinternshipon">
+                <label>Project</label>
+                <input type="text" placeholder="Enter project during internship" id="dproject">
+                </div>
+            </div>
+            </div>
+        
+        <center>
+            <button onclick="generate()" >Generate</button>
+        </center>
+        
+    </div> 
+
+    <div id="hide">
+        <div class="resumeflex">
+            <div class="resumeleft">
+                <p class="rname" id="rname">SAMANUE</p>
+                <p class="rlname" id="rlname">KOLA</p>
+                <p class="rdesignation" id="rdesig">FRONT-END WEBDEVELOPER</p>
+                <p class="rcontacts">CONTACTS</p>
+                <div class="remail"><i class="fa-solid fa-envelope"></i><p  id="email"> samanuesam@gmail.com</p></div>
+                
+                <div class="rlinkedin"><i class="fa-brands fa-linkedin"></i><p  id="linkedin"> Samanue Kola</p></div>
+                <div class="twitter"><i class="fa-brands fa-twitter"></i><p  id="twitter"> samanuesam</p></div>
+                <div class="rinsta"><i class="fa-solid fa-phone"></i><p  id="contact"> 6304647636</p></div>
+                <p class="rskills">SKILLS</p>
+                <ul class="rsills-inside">
+                    <li id="sam">Solidity(Web3)</li>
+                    
+                </ul>
+                <p class="rinterests">INTERESTS</p>
+                <ul class="rinterests-inside">
+                    <li id="sam1">Application development</li>
+                
+                </ul>
+                <p class="rlang">LANGUAGES KNOWN</p>
+                <ul class="rlang-inside">
+                    <li id="sam2">English</li>
+
+                </ul>
+            </div>
+            <div class="resumeright">
+                <p class="headingone">PORTFOLIO AND LINKS <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                <p class="undeline">-------------------------------</p>
+                <p class="rpersonal-profile">PERSONAL PROFILE</p>
+                <p class="rdescription" id="about">I am a Front-End Webdeveloper with 1+ years of experience as freelancer.
+                    I am currently looking for a full time Front-End Webdeveloper role to polish and enhance my skills.
+                </p>
+                <p class="reducation">EDUCATION</p>
+                <div class="rgrid-left" id="divaddr">
+                    
+                    <div class="rbtech"><p id="from" class="fromr">2019</p> <p id="from1" class="from1r">to</p> <p id="to" class="tor">2022</p></div>
+                    <div class="rbtech-info">
+                        <p class="rcourse" id="qualification">DIPLOMA in Electrical and Electronics</p>
+                        <p class="rcourse-info" id="comment">First class with distinction</p><p id="college" class="colleger"> SBIT College.</p>
+                        <span class="rcgpa">CGPA:</span><p class="rcgpa1" id="gpa"> 9.64</p>
+                        
+                    </div>
+                </div>
+                <p class="rprojects">PROJECTS</p>
+                <ul class="rprojects-info">
+                    <li id="sam3">Calculator</li>
+                </ul>
+                <p class="rinternships">INTERNSHIPS</p>
+                <p class="rsummer" id="season">Summer </p><p class="pdup1">Internship</p><br>
+                <p class="rorgan">Organization:</span><p id="company" class="pdup">Dhapps</p></p>
+                <p class="rdur">Duration: </span><p id="duration" class="pdup">180</p><span class="pdup">Days</span></p>
+                <p class="rinton">Internship On:</span><p id="internshipon" class="pdup">Web Development</p></p>
+                <p class="rinton">Project:</span><p id="project" class="pdup">Music Player</p></p>
+            </div>
+        </div>
+        <button onclick="print1()">Print</button>
+    </div>
+    
+    </body>
+</html>
